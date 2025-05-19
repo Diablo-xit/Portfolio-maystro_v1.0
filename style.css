@@ -1,0 +1,138 @@
+body {
+  background: #1e1e1e;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#ng {
+  width: 200px;
+  height: 200px;
+  font-size: 40px;
+  border-radius: 50%;
+  border: 3px solid cyan;
+  object-fit: cover;
+  backdrop-filter: 5px 5px 5px red;
+}
+
+.portefolio {
+  box-shadow: 10px 15px 120px cyan;
+  background: #2c2c2c;
+  height: auto;
+  padding: 10%;
+  width: 60%;
+  display: flex;
+  align-items: start;
+  justify-content: center;
+  border: 2px solid cyan;
+  border-radius: 20px;
+  text-align: center;
+  flex-wrap: wrap;
+}
+
+h1 {
+  font-weight: bold;
+  text-transform: uppercase;
+  color: cyan;
+  display: inline-block;
+  overflow: hidden;
+  white-space: nowrap;
+  border-right: 2px solid lime;
+  animation: typing 10s steps(30, end) infinite, blink 0.4s step-end infinite;
+}
+
+@keyframes typing {
+  0% {
+    width: 0;
+  }
+  50% {
+    width: 25ch;
+  }
+  100% {
+    width: 0;
+  }
+}
+
+@keyframes blink {
+  50% {
+    border-color: transparent;
+  }
+}
+
+.button-image {
+  display: block;
+  margin: 0;
+  gap: 30px;
+}
+
+h2 {
+  color: blue;
+  font-weight: bold;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+img {
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+  border: 2px solid cyan;
+  border-radius: 10px;
+  margin-top: 50px;
+}
+
+button {
+  width: 100%;
+  height: 40px;
+  cursor: pointer;
+  border: 2px solid cyan;
+  border-radius: 10px;
+  margin-top: 30px;
+  background: cyan;
+  color: #000;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+summary {
+  width: 300px;
+  height: 20px;
+  border-radius: 5px;
+  margin-top: 20px;
+  padding: 5px;
+  background: rgba(255, 255, 255, 0.8);
+  border: 2px solid cyan;
+  color: blue;
+  font-weight: bold;
+}
+
+p {
+  color: cyan;
+}
+
+.haut {
+  position: fixed;
+  background: cyan;
+  margin-top: 100px;
+  margin-left: 40vh;
+  font-weight: bold;
+  text-transform: uppercase;
+  width: 80px;
+  height: 70px;
+  border-radius: 10px;
+  text-align-last: center;
+  display: block;
+  padding: 0;
+  color: #000;
+}
+
+#co a {
+  color: #000;
+}
+
+#date {
+  color: white;
+  }
